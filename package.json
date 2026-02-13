@@ -1,0 +1,64 @@
+{
+  "name": "mcp-server-npm",
+  "version": "0.0.0-development",
+  "description": "MCP server to search npm packages, view details, compare, check downloads, and inspect dependencies from your IDE",
+  "type": "module",
+  "bin": {
+    "mcp-server-npm": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint . && prettier --check .",
+    "format": "prettier --write .",
+    "prepare": "husky"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "npm",
+    "package",
+    "search",
+    "registry",
+    "bundlephobia",
+    "downloads"
+  ],
+  "author": "Ofer Shapira",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ofershap/mcp-server-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ofershap/mcp-server-npm/issues"
+  },
+  "homepage": "https://github.com/ofershap/mcp-server-npm#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@vitest/coverage-v8": "^3.2.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^10.0.0",
+    "husky": "^9.0.0",
+    "lint-staged": "^15.0.0",
+    "prettier": "^3.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.7.0",
+    "typescript-eslint": "^8.0.0",
+    "vitest": "^3.2.0"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js}": "eslint --fix",
+    "*.{json,md,yml,yaml}": "prettier --write"
+  }
+}
