@@ -6,9 +6,7 @@
 
 > MCP server to search npm packages, view details, compare packages, check downloads, and inspect dependencies — all from your IDE. No API keys needed.
 
-<p align="center">
-  <img src="assets/demo.gif" alt="mcp-server-npm demo" width="600" />
-</p>
+![Demo](assets/demo.gif)
 
 ## Tools
 
