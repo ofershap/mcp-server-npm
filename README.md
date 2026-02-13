@@ -1,10 +1,19 @@
 # mcp-server-npm
 
 [![npm version](https://img.shields.io/npm/v/mcp-server-npm.svg)](https://www.npmjs.com/package/mcp-server-npm)
+[![npm downloads](https://img.shields.io/npm/dm/mcp-server-npm.svg)](https://www.npmjs.com/package/mcp-server-npm)
 [![CI](https://github.com/ofershap/mcp-server-npm/actions/workflows/ci.yml/badge.svg)](https://github.com/ofershap/mcp-server-npm/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> MCP server to search npm packages, view details, compare packages, check downloads, and inspect dependencies — all from your IDE. No API keys needed.
+Search npm, compare packages, check downloads, and inspect dependencies — all from your AI assistant. No API keys needed.
+
+```
+You: "Compare react vs preact — size, downloads, and dependencies"
+AI:  react: 45.5kb min, 25M weekly downloads, 3 deps
+     preact: 4.2kb min, 3.8M weekly downloads, 0 deps
+```
+
+> Works with Claude Desktop, Cursor, and VS Code Copilot.
 
 ![Demo](assets/demo.gif)
 
