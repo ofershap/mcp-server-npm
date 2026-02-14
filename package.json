@@ -1,6 +1,6 @@
 {
-  "name": "mcp-server-npm",
-  "version": "0.0.0-development",
+  "name": "mcp-server-npm-search",
+  "version": "1.0.0",
   "description": "MCP server to search npm packages, view details, compare, check downloads, and inspect dependencies from your IDE",
   "type": "module",
   "bin": {
