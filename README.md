@@ -17,6 +17,10 @@ AI:  react: 45.5kb min, 25M weekly downloads, 3 deps
 
 ![MCP server npm demo — comparing react vs preact from Claude Desktop](assets/demo.gif)
 
+<a href="https://glama.ai/mcp/servers/ofershap/mcp-server-npm">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/ofershap/mcp-server-npm/badge" alt="mcp-server-npm MCP server" />
+</a>
+
 ## Tools
 
 | Tool            | What it does                                                    |
